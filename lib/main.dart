@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
-import 'splashscreen.dart';
 import 'forgetpassword.dart';
 
 void main() {
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       routes: {
         // ignore: non_constant_identifier_names
         '/home': (Context) => Home(),
-        '/splashscreen': (context) => Splashscreen(),
+
         '/forgetpassword': (context) => ForgetPassword(),
       },
     );
