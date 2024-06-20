@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
 
         if (response.statusCode == 200) {
           setState(() {
-            message = 'Successfully logged in';
+            message = 'Successfully in';
           });
         } else {
           setState(() {
